@@ -1,0 +1,24 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color: white;
+    margin: 3px;
+
+}
+.gg-search{
+    margin: 3px;
+    cursor: pointer;
+    color: var(--main-bg-color);
+
+}
+.gg-log-in{
+    margin-right: 4px;
+    padding-top: 12px;
+    color: var(--main-bg-color);
+}
+.gg-shopping-cart{
+    color: var(--main-bg-color);
+}
