@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsivness</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 
+        sm -> for min-width: 640px
+        md -> for min-width: 768px
+        lg -> for min-width: 1024px
+        xl -> for min-width: 1280px
+        2xl -> for min-width: 1536px    
+  
+        syntax -> sm:class similarly md,lg,etc.
+    -->
+
+    <!-- if we use less than 640px then we will have to customize it -->
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: '150px',
+            // => @media (min-width: 640px) { ... }
+
+            md: '768px',
+            // => @media (min-width: 768px) { ... }
+
+            lg: '1024px',
+            // => @media (min-width: 1024px) { ... }
+
+            xl: '1280px',
+            // => @media (min-width: 1280px) { ... }
+
+            '2xl': '1536px',
+            // => @media (min-width: 1536px) { ... }
+          },
+          extend: {
+            // if we have to extend a new screen then
+            screens: {
+              '2sm': {
+                min: '200px',
+                max: '400px',
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <h1 class="sm:text-center">Custimizing Screens</h1>
+    <!-- ater customizing, the text will be in center untill the min. width of screen is less than 150px -->
+    <p class="2sm:text-blue-500 sm:text-red-500">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi provident
+      id ullam earum itaque facere odit ut illum. Quae, quis harum. Temporibus
+      dignissimos totam laborum cumque veritatis labore quos officiis
+      consequuntur ullam. Nobis unde maxime deserunt hic, tempora harum nemo eum
+      eos voluptatum suscipit? Odit rem corporis possimus dolor quisquam.
+    </p>
+    <!-- text of this paragraph will be bllue when width is 400px to 200px and other wise it will remain red-->
+    <!-- 
+      we can show something different in a perticular size of screen using hidden attribute
+     -->
+    <p class="2sm:hidden mt-5 bg-green-400 text-white">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+      perferendis non aliquid laborum accusantium fugit nisi officia voluptate
+      nesciunt pariatur.
+    </p>
+    <p class="hidden 2sm:block mt-5 bg-slate-400 text-white">
+      this is hidden paragraph
+    </p>
+  </body>
+</html>

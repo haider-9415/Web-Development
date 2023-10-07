@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- 
+        go to the tailwindcss website and then Playcdn section and copy the script
+        Then we can use tailwind classes
+     -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- we can customize it -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              color1: '#2699fb',
+              color2: '#ccc',
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body>
+    <h1 class="text-3xl text-red-500 text-center">Hello World</h1>
+
+    <h3 class="text-color1">we can customize it</h3>
+
+    <h3 class="text-color2">we can customize it</h3>
+  </body>
+</html>

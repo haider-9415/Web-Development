@@ -1,0 +1,5 @@
+step-1: add "build":"vite build" in package.json in scripts section
+step-2: run 'npm run build'
+after step2 it will give a folder in which your website is there 
+if you do some changes in html file in your folder then you will have to run 
+'npm run build' so that the same changes take place in html file in 'dist' folder

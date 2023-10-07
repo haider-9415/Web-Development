@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layer Directive</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- using layer directive method, we can add the classes which we have defined as the class of tailwindcss
+  syntax: @layer name(base|component|utilities) {
+    calsses
+  } 
+  -->
+  <body>
+    <!-- there is no class mx-13 in tailwindcss, but we can create it in tailwind.config.js as you can see 
+    first run type command: npx tailwindcss init confHaider --full
+    -->
+    <div class="mx-13 text-10xl xsm:text-blue-500">
+      Customizing tailwind.config.js
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apply Directive</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- using apply directive method, we give the element a class and write its attributes in CSS file using the class name and @apply, thus we can use only one class for different elements -->
+  <body>
+    <button class="p-2 m-4 rounded-lg bg-blue-900 text-white hover:bg-blue-500">
+      Submit
+    </button>
+    <button class="btn">Submit</button>
+    <!-- both of the above buttons will work same -->
+    <!-- we can use utility classes also -->
+    <button
+      class="btn hover:bg-white hover:text-blue-900 hover:border-2 hover:border-blue-400"
+    >
+      Submit
+    </button>
+
+    <!-- if we use a class name that is already a tailwindcss utility class then we have to add our class after the 'utilities' section -->
+  </body>
+</html>

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components{
+    .text-white{ /* this is the class in components section */
+        color: black;
+        background: green;
+    }
+    /* this class will not working because it is in components section and there is a same class named 'text-white' in utilities section and that is after this class so the class in utilities section will be applied */
+}

@@ -1,0 +1,12 @@
+Run these commands:
+
+step-1 --> npm init -y
+step-2 --> npm install -D tailwindcss postcss autoprefixer vite
+step-3 --> npx tailwindcss init -p
+step-4 --> create 'input.css', add it to your html page and edit it with
+           @tailwind base;
+           @tailwind components;
+           @tailwind utilities;
+step-5 --> in 'package.json' file replace '"test": "echo \"Error: no test specified\" && exit 1",'
+           with '"start":"vite"'
+step-6 --> npm run start
