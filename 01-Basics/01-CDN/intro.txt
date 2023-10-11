@@ -1,0 +1,7 @@
+CDN stands for 'Content Delivery Network'
+using this, we can use framworks without installing them such as react, tailwindcss and etc.
+
+only we have to add the following three scripts:
+<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
