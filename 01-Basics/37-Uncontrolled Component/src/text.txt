@@ -1,0 +1,5 @@
+console.log('input field 1 value: ',inpuRef1.current.value)
+console.log('input field 2 value: ',inpuRef2.current.value)
+
+<input ref={inpuRef1} type='text' /><br/><br/>
+<input ref={inpuRef2} type='text' /><br /><br />
