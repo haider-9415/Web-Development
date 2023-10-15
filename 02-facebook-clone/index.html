@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"><img src="images/logo.png" class="logo" alt="logo-image"></a>
+            <ul>
+                <li><img src="images/notification.png" alt="notification-image"></li>
+                <li><img src="images/inbox.png" alt="inbox-image"></li>
+                <li><img src="images/video.png" alt="video-image"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search">
+                <img src="images/search.png" alt="search-icon">
+                <input type="text" placeholder="search">
+                <!-- </div> -->
+            </div>
+
+            <div class="user-icon online" onclick="settingsmenutoggle()"> <!-- settingsmenutoggle() will be implemented in JS -->
+                <img src="images/profile-pic.png" alt="user-icon">
+            </div>
+
+        <div class="setting-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="user-profile">
+                <a href="#"><img src="images/profile-pic.png" alt="">
+                <div>
+                    <p>user-name</p></a>
+                    <a href="profile.html">See your profile</a>
+                </div>
+            </div>
+            <div class="user-profile">
+                <a href=""><img src="images/feedback.png" alt="">
+                <div>
+                    <p>Give Feedback</p></a>
+                    <a href="#">Help us to improve the new design</a>
+                </div>
+            </div>
+            <hr>
+            <div class="setting-links">
+                <img src="images/setting.png" class="setting-icons" alt="">
+                <a href="#">Setting & Privacy <img src="images/arrow.png" width="8px" alt=""></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/help.png" class="setting-icons" alt="">
+                <a href="#">Help & Support <img src="images/arrow.png" width="8px" alt=""></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/display.png" class="setting-icons" alt="">
+                <a href="#">Display & Accessibility <img src="images/arrow.png" width="8px" alt=""></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/logout.png" class="setting-icons" alt="">
+                <a href="#">Logout <img src="images/arrow.png" width="8px" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <!-------------------------- left-sidebar ----------------------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="news page">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="news page">Friends</a>
+                <a href="#"><img src="images/group.png" alt="news page">Groups</a>
+                <a href="#"><img src="images/marketplace.png" alt="news page">marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="news page">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shr-links">
+                <a href="#"><img src="images/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Website Design</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+            </div>
+        </div>
+
+        <!-------------------------- main-content ----------------------------->
+        <div class="main-content">
+            <div class="story-gellary">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-5.png" alt="">
+                    <p>member-5</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-6.png" alt="">
+                    <p>member-6</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-7.png" alt="">
+                    <p>member-7</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-8.png" alt="">
+                    <p>member-8</p>
+                </div>
+                <!-- <div class="story story6">
+                    <img src="images/member-9.png" alt=""> 
+                    <p>member-9</p>
+                </div> -->
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <a href=""><img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>user-name</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small></a>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="What's on your mind"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt=""></a>
+                        <a href="#"><img src="images/photo.png" alt=""></a>
+                        <a href="#"><img src="images/feeling.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <a href=""><img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>user-name</p>
+                            <span>September 910 2023, 01:00 am</span></a>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">I am Haider, visit <span>@HackTech.edu</span> to learn about any technology free of cost. <a href="#">#Ethical-Hacking</a> <a href="#">#Networking</a> <a href="#">#Linux</a> </p>
+                <img src="/images/feed-image-5.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="act-icons">
+                        <div><a href="#"><img src="images/like-blue.png" alt=""></a>78</div>
+                        <div><a href="#"><img src="images/comments.png" alt=""></a>23</div>
+                        <div><a href="#"><img src="images/share.png" alt=""></a>9</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <a href=""><img src="images/member-8.png" alt="">
+                        <div>
+                            <p>user-name</p>
+                            <span>September 8 2023, 10:17 am</span></a>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">I am Haider, visit <span>@HackTech.edu</span> to learn about any technology free of cost. <a href="#">#Ethical-Hacking</a> <a href="#">#Networking</a> <a href="#">#Linux</a> </p>
+                <img src="/images/feed-image-2.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="act-icons">
+                        <div><a href="#"><img src="images/like.png" alt=""></a>78</div>
+                        <div><a href="#"><img src="images/comments.png" alt=""></a>23</div>
+                        <div><a href="#"><img src="images/share.png" alt=""></a>9</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-8.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <a href=""><img src="images/member-5.png" alt="">
+                        <div>
+                            <p>user-name</p>
+                            <span>September 8 2023, 5:47 pm</span></a>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">I am Haider, visit <span>@HackTech.edu</span> to learn about any technology free of cost. <a href="#">#Ethical-Hacking</a> <a href="#">#Networking</a> <a href="#">#Linux</a> </p>
+                <img src="/images/feed-image-4.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="act-icons">
+                        <div><a href="#"><img src="images/like-blue.png" alt=""></a>78</div>
+                        <div><a href="#"><img src="images/comments.png" alt=""></a>23</div>
+                        <div><a href="#"><img src="images/share.png" alt=""></a>9</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <button type="button" class="load-btn">Load More</button>
+        </div>
+
+
+        
+
+        <!-------------------------- right-sidebar ----------------------------->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>11</h3>
+                    <span>September</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Lulu Mall</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>15</h3>
+                    <span>September</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Phoenix Palassio</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads" alt="">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="">
+                </div>
+                <p><a href="#">member-1</a></p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <p><a href="#">member-2</a></p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="">
+                </div>
+                <p><a href="#">member-3</a></p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.png" alt="">
+                </div>
+                <p><a href="#">member-4</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy; Socialbook.com</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

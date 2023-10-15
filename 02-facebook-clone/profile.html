@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-ProfilePage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"><img src="images/logo.png" class="logo" alt="logo-image"></a>
+            <ul>
+                <li><img src="images/notification.png" alt="notification-image"></li>
+                <li><img src="images/inbox.png" alt="inbox-image"></li>
+                <li><img src="images/video.png" alt="video-image"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search">
+                <img src="images/search.png" alt="search-icon">
+                <input type="text" placeholder="search">
+                <!-- </div> -->
+            </div>
+
+            <div class="user-icon online" onclick="settingsmenutoggle()"> <!-- settingsmenutoggle() will be implemented in JS -->
+                <img src="images/profile-pic.png" alt="user-icon">
+            </div>
+
+        <div class="setting-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="user-profile">
+                <a href=""><img src="images/profile-pic.png" alt="">
+                <div>
+                    <p>user-name</p></a>
+                    <a href="profile.html">See your profile</a>
+                </div>
+            </div>
+            <div class="user-profile">
+                <a href=""><img src="images/feedback.png" alt="">
+                <div>
+                    <p>Give Feedback</p></a>
+                    <a href="#">Help us to improve the new design</a>
+                </div>
+            </div>
+            <hr>
+            <div class="setting-links">
+                <img src="images/setting.png" class="setting-icons" alt="">
+                <a href="#">Setting & Privacy <img src="images/arrow.png" width="8px" alt=""></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/help.png" class="setting-icons" alt="">
+                <a href="#">Help & Support <img src="images/arrow.png" width="8px" alt=""></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/display.png" class="setting-icons" alt="">
+                <a href="#">Display & Accessibility <img src="images/arrow.png" width="8px" alt=""></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/logout.png" class="setting-icons" alt="">
+                <a href="#">Logout <img src="images/arrow.png" width="8px" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- -------------------- profile page --------------------------- -->
+    <div class="profile-container">
+        <img src="/images/cover.png" class="cover-img" alt="">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="/images/profile.png" class="pd-img">
+                    <div>
+                        <h3>user-name</h3>
+                        <p>120 Friends - 20 Mutual</p>
+                        <img src="images/member-1.png" alt="">
+                        <img src="images/member-2.png" alt="">
+                        <img src="images/member-3.png" alt="">
+                        <img src="images/member-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png" alt="" class="src">Friend</button>
+                <button type="button"><img src="images/message.png" alt="" class="src">Message</button>
+                <br>
+                <a href="#"><img src="images/more.png" alt=""></a>
+
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself, you can do unbelievable things.<img src="images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png" alt=""> statement for job</li>
+                        <li><img src="images/profile-study.png" alt=""> statement for study</li>
+                        <li><img src="images/profile-study.png" alt=""> statement for study</li>
+                        <li><img src="images/profile-home.png" alt=""> statement for home</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png" alt=""></div>
+                        <div><img src="images/photo2.png" alt=""></div>
+                        <div><img src="images/photo3.png" alt=""></div>
+                        <div><img src="images/photo4.png" alt=""></div>
+                        <div><img src="images/photo5.png" alt=""></div>
+                        <div><img src="images/photo6.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png" alt=""><p>friend1</p></div>
+                        <div><img src="images/member-3.png" alt=""><p>friend2</p></div>
+                        <div><img src="images/member-9.png" alt=""><p>friend3</p></div>
+                        <div><img src="images/member-7.png" alt=""><p>friend4</p></div>
+                        <div><img src="images/member-4.png" alt=""><p>friend5</p></div>
+                        <div><img src="images/member-2.png" alt=""><p>friend6</p></div>
+                        <div><img src="images/member-6.png" alt=""><p>friend7</p></div>
+                        <div><img src="images/member-5.png" alt=""><p>friend8</p></div>
+                        <div><img src="images/member-8.png" alt=""><p>friend9</p></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <a href=""><img src="images/profile.png" alt="">
+                        <div>
+                            <p>user-name</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small></a>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea name="" id="" cols="30" rows="5" placeholder="What's on your mind"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png" alt=""></a>
+                            <a href="#"><img src="images/photo.png" alt=""></a>
+                            <a href="#"><img src="images/feeling.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <a href=""><img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>user-name</p>
+                                <span>September 910 2023, 01:00 am</span></a>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">I am Haider, visit <span>@HackTech.edu</span> to learn about any technology free of cost. <a href="#">#Ethical-Hacking</a> <a href="#">#Networking</a> <a href="#">#Linux</a> </p>
+                    <img src="/images/feed-image-5.png" class="post-img" alt="">
+                    <div class="post-row">
+                        <div class="act-icons">
+                            <div><a href="#"><img src="images/like-blue.png" alt=""></a>78</div>
+                            <div><a href="#"><img src="images/comments.png" alt=""></a>23</div>
+                            <div><a href="#"><img src="images/share.png" alt=""></a>9</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <a href=""><img src="images/member-9.png" alt="">
+                            <div>
+                                <p>user-name</p>
+                                <span>September 8 2023, 10:17 am</span></a>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">I am Haider, visit <span>@HackTech.edu</span> to learn about any technology free of cost. <a href="#">#Ethical-Hacking</a> <a href="#">#Networking</a> <a href="#">#Linux</a> </p>
+                    <img src="/images/feed-image-2.png" class="post-img" alt="">
+                    <div class="post-row">
+                        <div class="act-icons">
+                            <div><a href="#"><img src="images/like.png" alt=""></a>78</div>
+                            <div><a href="#"><img src="images/comments.png" alt=""></a>23</div>
+                            <div><a href="#"><img src="images/share.png" alt=""></a>9</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/member-8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <a href=""><img src="images/member-5.png" alt="">
+                            <div>
+                                <p>user-name</p>
+                                <span>September 8 2023, 5:47 pm</span></a>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">I am Haider, visit <span>@HackTech.edu</span> to learn about any technology free of cost. <a href="#">#Ethical-Hacking</a> <a href="#">#Networking</a> <a href="#">#Linux</a> </p>
+                    <img src="/images/feed-image-4.png" class="post-img" alt="">
+                    <div class="post-row">
+                        <div class="act-icons">
+                            <div><a href="#"><img src="images/like-blue.png" alt=""></a>78</div>
+                            <div><a href="#"><img src="images/comments.png" alt=""></a>23</div>
+                            <div><a href="#"><img src="images/share.png" alt=""></a>9</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/member-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright &copy; Socialbook.com</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
