@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: wheat;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.nav ul li{
+    margin: 5px;
+    list-style: none;
+}
+.nav ul li:hover{
+    text-decoration: underline;
+}
+.nav-link.active{
+    background: white;
+}
+
+.about-link{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+.about-link:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+.about-link.active{
+    background: wheat;
+    color: purple;
+}
