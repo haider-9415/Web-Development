@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ------------------------ navbar starting -------------------------------------------  -->
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="index.html" class="logo"
+          ><img src="images/logo.png" alt="logo"
+        /></a>
+        <div class="search-box">
+          <img src="images/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+      </div>
+
+      <div class="navbar-center">
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="images/home.png" alt="home" /><span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/network.png" alt="home" /><span
+                >My Network</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/jobs.png" alt="home" /><span>Jobs</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/message.png" alt="home" /><span
+                >Messaging</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/notification.png" alt="home" /><span
+                >Notifications</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <div class="online">
+          <img
+            src="images/user-1.png"
+            class="nav-profile-img"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+
+      <!-- -------------------------profile-drop-down-menu----------------------- -->
+
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <img src="images/user-1.png" alt="" />
+            <div>
+              <h3>User-name</h3>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+
+          <hr />
+          <a href="#" class="profile-menu-link">
+            <img src="images/feedback.png" alt="" />
+            <p>Give Feedback</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/setting.png" alt="" />
+            <p>Settings & Privacy</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/help.png" alt="" />
+            <p>Help & Support</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/display.png" alt="" />
+            <p>Display & Accessiblity</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/logout.png" alt="" />
+            <p>Logout</p>
+            <span>></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- --------------------------- navbar ending ------------------------------------------- -->
+
+    <div class="container">
+      <!-- ----------------- left-sidebar ------------------------------------------- -->
+      <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+          <img src="images/cover-pic.png" width="100%" alt="" />
+
+          <div class="sidebar-profile-info">
+            <img src="/images/user-1.png" alt="" />
+            <h1>haider</h1>
+            <h3>Web Developer</h3>
+            <ul>
+              <li>profile views <span>52</span></li>
+              <li>post views <span>103</span></li>
+              <li>your connections <span>37</span></li>
+            </ul>
+          </div>
+
+          <div class="sidebar-profile-link">
+            <a href="#"><img src="images/items.png" />My Item</a>
+            <a href="#"><img src="images/premium.png" alt="" />Try Premium</a>
+          </div>
+        </div>
+
+        <div class="sidebar-activity" id="sidebarActivity">
+          <h3>RECENT</h3>
+          <a href="#"><img src="/images/recent.png" alt="" />Web Development</a>
+          <a href="#"><img src="/images/recent.png" alt="" />User Interface</a>
+          <a href="#"><img src="/images/recent.png" alt="" />Online Learning</a>
+          <a href="#"><img src="/images/recent.png" alt="" />Learn Online</a>
+          <a href="#"><img src="/images/recent.png" alt="" />Code Better</a>
+          <a href="#"><img src="/images/recent.png" alt="" />Group Learning</a>
+          <h3>GROUPS</h3>
+          <a href="#"><img src="/images/group.png" alt="" />Web Design</a>
+          <a href="#"><img src="/images/group.png" alt="" />HTML & CSS</a>
+          <a href="#"
+            ><img src="/images/group.png" alt="" />Python & Java Script</a
+          >
+          <a href="#"
+            ><img src="/images/group.png" alt="" />Learn Coding Online</a
+          >
+          <h3>HASHTAG</h3>
+          <a href="#"><img src="/images/hashtag.png" alt="" />webdevelopment</a>
+          <a href="#"><img src="/images/hashtag.png" alt="" />userinterface</a>
+          <a href="#"><img src="/images/hashtag.png" alt="" />onlinelearning</a>
+          <div class="discover-more-link">
+            <a href="#">Discover More</a>
+          </div>
+        </div>
+        <p id="showMoreLink" onclick="toggleActivity()">Show More <b>+</b></p>
+      </div>
+
+      <!-- ----------------- main-content ------------------------------------------- -->
+
+      <div class="main-content">
+        <div class="create-post">
+          <div class="create-post-input">
+            <img src="images/user-1.png" alt="" />
+            <textarea rows="2" placeholder="Write a post"></textarea>
+          </div>
+
+          <div class="create-post-links">
+            <li><img src="images/photo.png" alt="" />Photo</li>
+            <li><img src="images/video.png" alt="" />video</li>
+            <li><img src="images/event.png" alt="" />event</li>
+            <li>Post</li>
+          </div>
+        </div>
+
+        <div class="sort-by">
+          <hr />
+          <p>
+            Sort by:
+            <span>Top <img src="images/down-arrow.png " alt="" /></span>
+          </p>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-3.png" alt="" />
+            <div>
+              <h3>User-name</h3>
+              <small>founder CEO and etc.</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+            ipsum magni reiciendis, labore, iusto officia distinctio tempora ex
+            quia ad dignissimos modi nam, corrupti fuga eveniet vitae enim?
+            Quibusdam, atque.
+          </p>
+          <img src="images/post-image-1.png" width="100%" alt="" />
+          <div class="post-status">
+            <div>
+              <img src="images/thumbsup.png" alt="" />
+              <img src="images/love.png" alt="" />
+              <img src="images/clap.png" alt="" />
+              <span class="liked-users">user-4 and 73 others </span>
+            </div>
+            <div>
+              <span>23 comments &middot; 12 shares</span>
+            </div>
+          </div>
+
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user" alt="" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow"
+                alt=""
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" alt="" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" alt="" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" alt="" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" alt="" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-5.png" alt="" />
+            <div>
+              <h3>User-name</h3>
+              <small>founder CEO and etc.</small>
+              <small>8 hours ago</small>
+            </div>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+            ipsum magni reiciendis, labore, iusto officia distinctio tempora ex
+            quia ad dignissimos modi nam, corrupti fuga eveniet vitae enim?
+            Quibusdam, atque.
+          </p>
+          <img src="images/post-image-3.png" width="100%" alt="" />
+          <div class="post-status">
+            <div>
+              <img src="images/thumbsup.png" alt="" />
+              <img src="images/love.png" alt="" />
+              <img src="images/clap.png" alt="" />
+              <span class="liked-users">user-4 and 45 others </span>
+            </div>
+            <div>
+              <span>13 comments &middot; 2 shares</span>
+            </div>
+          </div>
+
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user" alt="" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow"
+                alt=""
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" alt="" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" alt="" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" alt="" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" alt="" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-4.png" alt="" />
+            <div>
+              <h3>User-name</h3>
+              <small>founder CEO and etc.</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+            ipsum magni reiciendis, labore, iusto officia distinctio tempora ex
+            quia ad dignissimos modi nam, corrupti fuga eveniet vitae enim?
+            Quibusdam, atque.
+          </p>
+          <img src="images/post-image-4.png" width="100%" alt="" />
+          <div class="post-status">
+            <div>
+              <img src="images/thumbsup.png" alt="" />
+              <img src="images/love.png" alt="" />
+              <img src="images/clap.png" alt="" />
+              <span class="liked-users">user-4 and 73 others </span>
+            </div>
+            <div>
+              <span>23 comments &middot; 12 shares</span>
+            </div>
+          </div>
+
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user" alt="" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow"
+                alt=""
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" alt="" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" alt="" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" alt="" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" alt="" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-2.png" alt="" />
+            <div>
+              <h3>User-name</h3>
+              <small>founder CEO and etc.</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+            ipsum magni reiciendis, labore, iusto officia distinctio tempora ex
+            quia ad dignissimos modi nam, corrupti fuga eveniet vitae enim?
+            Quibusdam, atque.
+          </p>
+          <img src="images/post-image-1.png" width="100%" alt="" />
+          <div class="post-status">
+            <div>
+              <img src="images/thumbsup.png" alt="" />
+              <img src="images/love.png" alt="" />
+              <img src="images/clap.png" alt="" />
+              <span class="liked-users">user-4 and 73 others </span>
+            </div>
+            <div>
+              <span>23 comments &middot; 12 shares</span>
+            </div>
+          </div>
+
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user" alt="" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow"
+                alt=""
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" alt="" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" alt="" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" alt="" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" alt="" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------- right-sidebar ------------------------------------------- -->
+      <div class="right-sidebar">
+        <div class="sidebar-news">
+          <img src="images/more.png" alt="" class="info-icon" />
+          <h3>Trending News</h3>
+          <a href="#">High demand for skilled manpower</a>
+          <span>1h ago &middot; 10,934 readers</span>
+
+          <a href="#">Careers growing horizontally too</a>
+          <span>19h ago &middot; 10,004 readers</span>
+
+          <a href="#">High demand for skilled manpower</a>
+          <span>1d ago &middot; 10,934 readers</span>
+
+          <a href="#">High demand for skilled manpower</a>
+          <span>1d ago &middot; 10,934 readers</span>
+
+          <a href="#">High demand for skilled manpower</a>
+          <span>1d ago &middot; 10,934 readers</span>
+
+          <a href="#" class="read-more-links">Read More</a>
+        </div>
+
+        <div class="sidebar-ad">
+          <small>Ad &middot; &middot; &middot;</small>
+          <p>Master these 5 principles of web design</p>
+          <div>
+            <img src="images/user-1.png" alt="" />
+            <img src="images/mi-logo.png" alt="" />
+          </div>
+          <b>Brand and Demand in Xiaomi</b>
+          <a href="#" class="ad-link">Learn More</a>
+        </div>
+
+        <div class="sidebar-useful-links">
+          <a href="#">About</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Help</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Advertising</a>
+          <a href="#">Get The App</a>
+          <a href="#">More</a>
+          <div class="copyright-msg">
+            <img src="/images/logo.png" alt="" />
+            <p>Linkedup &#169; 2023. All right reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
