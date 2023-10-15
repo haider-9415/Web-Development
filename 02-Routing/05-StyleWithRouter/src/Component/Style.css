@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: wheat;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.nav ul li{
+    margin: 5px;
+    list-style: none;
+}
+
+.nav-link.active{
+    background: white;
+}
