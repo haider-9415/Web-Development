@@ -1,0 +1,22 @@
+.div-tag{
+    width: 300px;
+    border: 2px solid black;
+
+    /* by default */
+    white-space: normal;
+
+    /* white-space: nowrap; */
+
+     /* white-space: pre; */
+
+     /* white-space: wrap; */
+
+     /* white-space: pre-wrap; */
+
+     white-space: pre-line;
+
+
+
+
+
+}

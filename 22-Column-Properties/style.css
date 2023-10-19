@@ -1,0 +1,45 @@
+.div-tag{
+    border: 2px solid black;
+    padding: 20px;
+
+    /* column-count: 5; */
+    /* column-count: 10; */
+    column-count: 3;
+
+
+
+    /* column-gap: 150px; */
+
+
+
+    /* border: 0; */
+    /* column-rule-width: 5px; */
+    /* column-rule-color: blue; */
+    /* column-rule-style: solid; */
+    /* column-rule-style: dotted; */
+    /* column-rule-style: dashed; */
+    /* column-rule-style: double; */
+    /* column-rule-style: groove; */
+    /* column-rule-style: hidden; */
+
+    /* shrthand */
+    column-rule: 10px double red;
+
+
+    
+
+    /* column-width: 10px; */
+    /* column-width: 50px; */
+    /* column-width: 450px; */
+    /* column-width: 2px; */
+    /* column-width: 150px; */
+
+
+}
+
+h1{
+    column-span: all;
+
+    /* by default */
+    /* column-span:none; */
+}

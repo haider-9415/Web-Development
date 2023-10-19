@@ -1,0 +1,14 @@
+.first{
+    width: 300px;
+
+    border: 10px solid red;
+    padding: 100px;
+    /* or */
+    /* border: 100px solid red; */
+    /* padding: 10px; */
+
+    /* now the width will be 300px
+    but it affects on height  */
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,25 @@
+.first{
+    width: 400px;
+    border: 2px solid red;
+    background: aqua;
+    float: left;
+}
+.second{
+    width: 400px;
+    border: 2px solid blue;
+    background: yellowgreen;
+    float: right;
+}
+.third{
+    border: 2px solid green;
+    background: wheat;
+
+    /* without using clear, third div will hide behind first and second divs  */
+    
+    /* clear: left; */
+
+    /* clear: right; */
+    
+    /* clear: both; */
+
+}

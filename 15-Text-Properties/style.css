@@ -1,0 +1,50 @@
+.first{
+    width: 300px;
+    padding: 25px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*  to align text  */
+    /* left and start are same */
+    /* text-align: left; */
+    /* text-align: start; */
+    /* by gefault */
+
+    /* right and end are same */
+    /* text-align: right; */
+    /* text-align: end; */
+
+    /* text-align: center; */
+    /* text-align: justify; */
+
+    /* to align only last line */
+    /* text-align-last:center; */
+    /* text-align-last:left; */
+    /* text-align-last:start; */
+    /* text-align-last:right; */
+    /* text-align-last:end; */
+    /* text-align-last:justify; */
+
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: none; */
+
+    /* to align the first line to the right */
+    /* text-indent: 10px; */
+    /* text-indent: 40px; */
+    /* text-indent: 100px; */
+
+    /* to make spaces between words */
+    /* word-spacing: normal; */
+    /* word-spacing: 10px; */
+    /* word-spacing: 40px; */
+    /* word-spacing: 100px; */
+
+    /* to make spaces between letters */
+    /* letter-spacing: normal; */
+    /* letter-spacing: 10px; */
+    /* letter-spacing: 40px; */
+    /* letter-spacing: 100px; */
+
+}

@@ -1,0 +1,30 @@
+.first{
+    border: 2px solid red;
+
+    /* width: 700px; */
+    /* height: 50px; */
+
+    /* fit-tocontent property set the width and height of an element according to its content */
+    /* width: fit-content; */
+    /* height: fit-content; */
+
+    /* as we increase the width the horizontal scroll bar will decrease */
+    /* width: 2000px; */
+
+    /* we can set width in % */
+    /*rememeber, if it is not a child parent then it will be set with respect to the screen anf if it is a child then it will be with respect to its parent element */
+    /* width: 50%; */
+
+    /* min-height & min-width means atleast an element has x min-width and min-height whether its content has less width and height than that */
+    /* min-width: 100px; */
+    /* min-height: 200px; */
+    /* now if we increase its content then it will increase its height and width according to its content
+    if we decrease its content then it will decrease itself upto min-width and min-height not according to its content */
+
+
+    /* max-height & max-width means atleast an element has x max-width and max-height whether its content has greater width and height than that */
+    max-width: 300px;
+    max-height: 300px;
+    /* now if we increase its content then it will increase its height and width upto max-width and mix-height
+    if we decrease its content then it will decrease itself according to its content */
+}

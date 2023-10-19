@@ -1,0 +1,37 @@
+.div-tag{
+    margin: 5px;
+    padding: 5px;
+    border-width: 3px;
+    border-color: brown;
+    border-style: solid;
+}
+.p-one{
+    margin: 5px;
+    padding: 5px;
+    /* border:10px dotted red ; */
+    /* border:10px double red ; */
+    /* border:10px groove red ; */
+    /* border:10px dashed red ; */
+    /* border:10px ridge red ; */
+    /* border:10px inset red ; */
+    /* border:10px outset red ; */
+    /* border:10px none red ; */
+
+    /* we can set different borders for different sides this is called 'mix' it will be set clockwise from top to left */
+    /* border-width: 10px; */
+    /* border-color: brown; */
+    /* border-style: double dotted inset ridge ; */
+
+    /* we can set top & bottom togather and left & right togather */
+    border-width: 10px;
+    border-color: brown;
+    /* border-style: double dotted ; */
+    /* border-style: solid ridge ; */
+
+    /* we can use individual properties */
+    border-top:10px ridge brown ;
+    border-right:10px dashed brown ;
+    border-bottom:10px outset brown ;
+    border-left:10px groove brown ;
+        
+}

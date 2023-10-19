@@ -1,0 +1,27 @@
+.first{
+    border: 2px solid red;
+    width: 300px;
+    
+    /* inline-end & right properties do same work and  similarly inline-start & left */
+    /* float:inline-end; */
+    /* float:right; */
+    /* float:inline-start; */
+    float:left;
+
+}
+
+.second{
+    border: 2px solid blue;
+    width: 600px;
+
+    /* float:inline-end; */
+    /* float:right; */
+    /* float:inline-end; */
+    float:left;
+}
+.third{
+    border: 2px solid green;
+    width: 200px;
+    /* float: right; */
+    float: left;
+}

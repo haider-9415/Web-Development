@@ -1,0 +1,22 @@
+.p-one{
+    border: 3px solid red;
+
+    /* padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+
+    /* padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 40px; */
+
+    /* shorthand */
+    /* padding: 20px; */
+    /* padding: 20px 10px 4px 40px; */
+
+    /* we can set top & bottom padding togather and right & left padding togather
+    first value will be for top & bottom and second value will be for right & left */ 
+    padding: 30px 10px;
+
+}

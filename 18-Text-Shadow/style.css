@@ -1,0 +1,26 @@
+.div-tag{
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    word-spacing: 3px;
+    font-size: 30px;
+
+    text-shadow: 5px 5px 5px red;
+}
+h1{
+    color: blue;
+    text-shadow: 5px 5px red;
+    text-shadow: 5px 5px red;
+    text-shadow: 5px 5px red;
+    text-shadow: 0 5px red;
+    text-shadow: 0 5px 3px red;
+
+    /*  we can use -ve values to set shadow in opposite side */
+    text-shadow: -5px 5px 3px red;
+    text-shadow: 5px -5px red;
+    text-shadow: -5px -5px 6px red;
+
+    /*  we can set multiple shadows */
+    text-shadow: 3px 2px red, -6px -4px 14px green, -9px 6px 2px purple;
+}
+

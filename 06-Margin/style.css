@@ -1,0 +1,32 @@
+.first{
+    background: wheat;
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; */
+
+    /* margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 30px; */
+
+
+    /* shorthand */
+    /* margin: 20px; */
+
+    /* margin: 20px 5px 10px 30px; */
+
+    /* we can set margin for top and bottom togather and left and right togather
+    first value will be for top & bottom and second value will be for left & right  */
+    margin: 10px 40px;
+}
+
+.second{
+    background: blanchedalmond;
+    width: 200px;
+    /* margin: 10px auto 20px auto; */
+
+    /* or */
+
+    margin: 20px auto;
+}

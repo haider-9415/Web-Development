@@ -1,0 +1,16 @@
+@font-face {
+    font-family: myFont;
+    src: url(Fonts/Montserrat-Black.ttf);
+}
+
+.div-tag{
+    border: 2px solid black ;
+    widows: 400px;
+    padding: 20px;
+
+    font-family: myFont;
+}
+
+h2{
+    font-family: myFont;
+}

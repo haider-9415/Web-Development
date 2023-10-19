@@ -1,0 +1,24 @@
+.first{
+    width: 300px;
+    height: 160px;
+    border: 2px solid black;
+
+    /* hidden property hide the content to bee overflow */
+    /* overflow: hidden; */
+
+    /* scroll property set the scroll  bar horizontally and vertically */
+    /* overflow: scroll; */
+
+    /* auto property set the scroll bar according to need */
+    /* overflow: auto; */
+
+    /* overflow-y: hidden; */
+    /* overflow-y: scroll; */
+    /* overflow-y: auto; */
+    /* overflow-x: hidden; */
+
+    /* overflow-x: hidden;  */
+    /* overflow-x: scroll; */
+    /* overflow-x: auto; */
+    /* overflow-y: hidden; */
+}

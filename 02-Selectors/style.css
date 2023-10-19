@@ -1,0 +1,31 @@
+/* thereare three ways to select the tag style it */
+
+
+/* method-1: using tag name */
+h2{
+    color: aqua;
+}
+
+/* method-2: using class name */
+.cls{
+    color: brown;
+}
+
+/* method-3: using id name */
+#t{
+    color: chocolate;
+}
+
+/* we can use them with each other */
+div{
+    background: wheat;
+    padding: 2px;
+}
+div .p-tag{
+    font-size: 20px;
+}
+.p-tag #span-tag{
+    color: wheat;
+    background-color: chocolate;
+    padding: 2px;
+}

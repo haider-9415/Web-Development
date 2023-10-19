@@ -1,0 +1,38 @@
+.first {
+  width: 300px;
+  padding: 25px;
+  border: 2px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-decoration-line:underline ;
+
+
+}
+h2{
+    /* text-decoration-line: underline; */
+    /* text-decoration-line: line-through; */
+    /* text-decoration-line: overline; */
+
+    /* text-decoration-line: underline; */
+    /* text-decoration-color: aqua; */
+    /* text-decoration-color: red; */
+
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: solid; */
+    /* text-decoration-style:dotted; */
+    /* text-decoration-style:double; */
+    /* text-decoration-style:wavy; */
+
+    /* shorthand */
+    text-decoration:line-through red wavy ;
+}
+a{
+    /* text-decoration-line:none ; */
+    /* text-decoration-style:wavy ; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: solid; */
+    /* text-decoration-style:dotted; */
+    /* text-decoration-style:double; */
+    text-decoration-color: red;
+
+}

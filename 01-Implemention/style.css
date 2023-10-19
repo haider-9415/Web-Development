@@ -1,0 +1,14 @@
+body{
+    background: rgba(214, 167, 105, 0.827);
+}
+body div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div h2{
+    padding: 5px;
+}
+div p{
+    padding: 5px;
+}

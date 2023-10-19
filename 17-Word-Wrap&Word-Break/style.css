@@ -1,0 +1,18 @@
+.div-tag{
+    width: 300px;
+    border: 2px solid black;
+
+    /*  by default  */
+    /* word-wrap: normal; */
+
+    /* word-wrap:break-word; */
+
+
+
+    /*  default value */
+    word-break:keep-all;
+
+    word-break: break-all;
+
+    
+}

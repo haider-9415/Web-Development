@@ -1,0 +1,20 @@
+.div-tag{
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+
+    /*  remember rl means right to left and lr means left to right  */
+    writing-mode: vertical-rl;
+
+    writing-mode: vertical-lr;
+
+    writing-mode:sideways-rl;
+
+    writing-mode:sideways-lr;
+
+    /*  by default */
+    writing-mode:horizontal-tb;
+
+
+
+}

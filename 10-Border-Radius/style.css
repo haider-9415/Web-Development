@@ -1,0 +1,35 @@
+.first{
+    width: 300px;
+    padding: 10px;
+    border: 4px solid red;
+
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px; */
+
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 60px; */
+
+    /* shorthand */
+    /* border-radius: 30px; */
+    /* border-radius: 10px 30px 50px 60px; */
+
+    /* we can set it for top-left & botomm-right togather and for top-right & bottom-left togather
+    first value will be for top-left & botomm-right and second value will be for top-right & bottom-left */
+    /* border-radius: 20px 50px ; */
+
+    /* in some cases we ave to use prefix so that the browser can support */
+    /* for browser and safari */
+    /* -webkit-border-radius: 20px 40px ; */
+    /* for mozilla */
+    /* -moz-border-radius: 20px 40px  ; */
+
+    /*  we can sett it in % */
+    /* border-radius: 5% 15% 20% 30%; */
+    border-radius: 50%;
+
+    
+}
