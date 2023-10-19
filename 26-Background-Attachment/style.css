@@ -1,0 +1,10 @@
+body{
+    background: url(image3.jpg) no-repeat;
+    background-position: center;
+
+    /*  by deafult */
+    /* background-attachment: scroll; */
+
+    /* to fix the image at a certain position */
+    background-attachment: fixed;
+}

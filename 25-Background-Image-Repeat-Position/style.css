@@ -1,0 +1,79 @@
+body {
+  /* background-image: url('image1.jpg'); */
+
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: round; */
+  /* background-repeat: space; */
+
+  /* background-position:left ; */
+  /* background-position:right ; */
+  /* background-position:top ; */
+  /* background-position:bottom ; */
+  /* background-position:center ; */
+  /* background-position:top right ; */
+  /* background-position:top left ; */
+  /* background-position:top center ; */
+  /* background-position:bottom left ; */
+  /* background-position:bottom right; */
+  /* background-position:bottom center; */
+  /* background-position:center center; */
+
+  /* we can set it in px and %, first value will be for x-axis and second value will be for y-axis */
+  /* background-position: 20px 50px; */
+  /* background-position: 200px 100px; */
+  /* background-position: -100px 200px; */
+  /* background-position: -100px -50px; */
+  /* background-position: 500px -50px;  */
+
+
+
+  /* shorthand */
+  background: url('image3.jpg') no-repeat right center;
+
+  /*  we can set color with it */
+  background: purple url('image3.jpg') no-repeat right center;
+
+}
+.div-tag {
+  border: 5px solid red;
+  color: white;
+  height: 600px;
+
+  /* background-image */
+  /* background-image: url('image2.jpg'); */
+
+
+  /* background-repeat */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: round; */
+  /* background-repeat: space; */
+
+
+  /* background-position */
+  /* background-position:left ; */
+  /* background-position:right ; */
+  /* background-position:top ; */
+  /* background-position:bottom ; */
+  /* background-position:center ; */
+  /* background-position:top right ; */
+  /* background-position:top left ; */
+  /* background-position:top center ; */
+  /* background-position:bottom left ; */
+  /* background-position:bottom right; */
+  /* background-position:bottom center; */
+
+
+
+  /* we can set it in px and %, first value will be for x-axis and second value will be for y-axis */
+  /* background-position: 20px 50px; */
+  /* background-position: 200px 100px; */
+  /* background-position: -100px 200px; */
+  /* background-position: -100px -50px; */
+  /* background-position: 500px -50px; */
+}

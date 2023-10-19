@@ -1,0 +1,32 @@
+body{
+    background: wheat;
+}
+.div-tag{
+    width: 900px;
+    height: 400px;
+    border: 10px dotted black;
+    background: white url(image3.jpg) no-repeat;
+    background-position: bottom right;
+    padding: 40px;
+
+    /* background-clip works on background-color such as background-origin works on background image */
+
+    /* it does not include padding and border portions */
+    background-clip: content-box; 
+
+
+    /* it includes padding portion only */
+    /* background-clip: padding-box; */
+
+
+    /* it includes border portion also */
+    /* background-clip: border-box; */
+}
+h1{
+    /* now we will see text property but we have to set color transparent */
+    color: transparent;
+    background: url(image2.jpg);
+    font-size: 100px;
+    background-clip: text;
+}
+

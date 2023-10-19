@@ -1,0 +1,27 @@
+body{
+    background: wheat;
+}
+.div-tag{
+    /* by default */
+    background-size: auto;
+
+
+    width: 900px;
+    height: 400px;
+    border: 10px dotted red;
+    background:white url(image3.jpg) no-repeat;
+    padding: 40px;
+
+    /*  the image will be set after the padding */
+    background-origin: content-box;
+
+    
+    /*  the image will be set after the border, i.e., it will cover padding portion */
+    background-origin: padding-box;
+
+
+    /*  the image will be set from starting the div, i.e., it will cover border portion */
+    background-origin: border-box;
+
+
+}
