@@ -1,0 +1,19 @@
+<userContext.Consumer>
+            {
+                user => {
+                    return (
+                        <channelContext.Consumer>
+                            {
+                                channel => {
+                                    return (
+                                        <div> 
+                                            <h2>Name: {user} - Channel: { channel }</h2>
+                                        </div>
+                                    )
+                                }
+                            }
+                        </channelContext.Consumer>
+                    )
+                }
+            }
+</userContext.Consumer>
